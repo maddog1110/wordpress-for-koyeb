@@ -11,7 +11,7 @@ Deploy a WordPress site quickly and easily on Koyeb using Docker and GitHub.
 ## Quick Start
 
 ### 1. Get GitHub Repository URL
-1. Go to your GitHub repository
+1. Go to the GitHub repository
 2. Click the green "Code" button
 3. Copy the HTTPS URL 
 
