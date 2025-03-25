@@ -7,10 +7,17 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  build-and-push:
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v4
+
+      - name: Log in to Docker Hub
+        run: echo "${{ secrets.DOCKER_HUB_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_HUB_USERNAME }}" --password-stdin
+
       - name: Build the Docker image
-        run: docker build . --file Dockerfile --tag maddog675/wordpress-on-koyeb:1742923670-tagname-$(date +%s)
+        run: docker build . --file Dockerfile --tag maddog675/wordpress-on-koyeb:latest
+
+      - name: Push the Docker image to Docker Hub
+        run: docker push maddog675/wordpress-on-koyeb:latest
