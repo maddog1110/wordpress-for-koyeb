@@ -1,4 +1,4 @@
-WordPress Deployment on Koyeb
+## WordPress Deployment on Koyeb
 
 ## Overview
 Deploy a WordPress site quickly and easily on Koyeb using Docker and GitHub.
