@@ -24,7 +24,7 @@ Deploy a WordPress site quickly and easily on Koyeb using Docker and GitHub.
 6. Deploy
 
 ## Troubleshooting
-- Ensure repository is public or Koyeb has access
+- Koyeb has access
 - Check Koyeb deployment logs
 - Verify GitHub repository URL
 
@@ -37,7 +37,7 @@ Deploy a WordPress site quickly and easily on Koyeb using Docker and GitHub.
 
 MIT License
 
-Copyright (c) 2024 [Your Name or Organization]
+Copyright (c) 2025 maddog
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
